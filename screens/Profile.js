@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text, Button , StyleSheet} from 'react-native';
 
-export default function HomeScreen({ navigation }) {
+export default function Profile({ navigation }) {
   return (
     <View style={styles.container}>
     <View style={styles.content}>
-      <Text>HomeScreen</Text>
+      <Text>Profile</Text>
     </View>
     <View style={styles.buttonContainer}>
       <Button title="HomeScreen" onPress={() => navigation.navigate('HomeScreen')} />
@@ -33,4 +33,5 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
   },
 });
+
 
